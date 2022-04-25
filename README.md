@@ -45,6 +45,6 @@ if [ -f ../iOS-SwiftLint/.swiftlint.yml ]; then
     echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
   fi
 else
-  echo "error: SwiftLint configuration not fetched, download from https://github.com/skat/iOS-SwiftLint and put the folder as the same level as your project folder"
+  echo "warning: SwiftLint configuration not fetched, download from https://github.com/skat/iOS-SwiftLint and put the folder as the same level as your project folder"
 fi
 ```
