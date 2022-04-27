@@ -1,6 +1,6 @@
 excluded:
-  - Ejerskifte/Sources/Shared/Translations
-  - Ejerskifte/Tests
+  - ${PWD}/Ejerskifte/Sources/Shared/Translations
+  - ${PWD}/Ejerskifte/Tests
 
 
 whitelist_rules:
