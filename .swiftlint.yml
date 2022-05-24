@@ -1,5 +1,5 @@
 excluded:
-  - ${PWD}/Ejerskifte/Sources/Shared/Translations
+  - ${PWD}/Shared/Sources/Shared/Translations
   - ${PWD}/Ejerskifte/Tests
 
 
