@@ -119,6 +119,8 @@ identifier_name:
     - x
     - y
     - z
+    - vm
+    - vc
 
 multiline_arguments:
   first_argument_location: next_line
