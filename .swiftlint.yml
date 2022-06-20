@@ -1,7 +1,9 @@
 excluded:
-  - ${PWD}/Ejerskifte/Sources/Shared/Translations
+#Ejerskifte ignores
+  - ${PWD}/Shared/Sources/Shared/Translations
   - ${PWD}/Ejerskifte/Tests
-
+  - ${PWD}/Authentication/Tests
+  - ${PWD}/AppController/Tests
 
 whitelist_rules:
 #opt_in_rules:
