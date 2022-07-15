@@ -5,7 +5,7 @@ excluded:
   - ${PWD}/Authentication/Tests
   - ${PWD}/AppController/Tests
 
-whitelist_rules:
+only_rules:
 #opt_in_rules:
  - explicit_init
  - convenience_type
@@ -35,7 +35,6 @@ whitelist_rules:
  - multiline_arguments
  - private_over_fileprivate
  - vertical_whitespace
- - no_space_in_method_call
  - opening_brace
  - computed_accessors_order
  - control_statement
@@ -50,7 +49,6 @@ whitelist_rules:
  - large_tuple
  - last_where
  - no_space_in_method_call
- - opening_brace
  - nesting
 
 # maybe
