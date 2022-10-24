@@ -55,7 +55,6 @@ whitelist_rules:
 
 # maybe
  - compiler_protocol_init
- - cyclomatic_complexity
 
 
 # - deployment_target
