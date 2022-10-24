@@ -1,11 +1,11 @@
-# iOS-SwiftLint
+# SwiftLint-iOS
 
 Please place this repository like the following structure.
 
 In the same level as your project level and follow the instruction. 
 
 ```
-iOS-SwiftLint
+SwiftLint-iOS
 │   README.md
 │   .swiftlint.yml  
 ------------------------------
@@ -38,13 +38,13 @@ ProjectName
 ```
 export PATH="$PATH:/opt/homebrew/bin"
 
-if [ -f ../iOS-SwiftLint/.swiftlint.yml ]; then
+if [ -f ../SwiftLint-iOS/.swiftlint.yml ]; then
   if which swiftlint >/dev/null; then
     swiftlint --no-cache --config ../iOS-SwiftLint/.swiftlint.yml
   else
     echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
   fi
 else
-  echo "warning: SwiftLint configuration not fetched, download from https://github.com/skat/iOS-SwiftLint and put the folder as the same level as your project folder"
+  echo "warning: SwiftLint configuration not fetched, download from https://github.com/skat/SwiftLint-iOS and put the folder as the same level as your project folder"
 fi
 ```
